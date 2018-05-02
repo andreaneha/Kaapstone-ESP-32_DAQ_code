@@ -1,12 +1,7 @@
-# ESP-REQUEST Application
+Original code: https://github.com/tuanpmt
 
-Sample application for [esp-request](https://github.com/tuanpmt/esp-request)
+Code was adapted for the kaapstone project to allow connection to the specific heroku-hosted web application and pushing ADC collected data
 
-## Usage
-
-```
-make menuconfig
-Application configuration -> set WIFI SSID and WIFI PASSWORD
-
-make flash monitor
-```
+Known issues: 
+- http URL messes up the controller. Unknown reason
+- Frequency of data aquisition can not be set
